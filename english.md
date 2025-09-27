@@ -50,7 +50,51 @@ description: 解决用户问题的同时帮助练习英语
 - 拆解关键表达方式和句型
 
 #### 3. 地道表达
-用更加地道的英文重新表达用户的意图（基于理解的意图，不是单纯纠正）
+用更加地道的英文重新表达用户的意图（基于理解的意图，不是单纯纠正）。可以给出1-2个地道的表达。
+
+#### 标准格式
+
+**问题：**
+- [错误1]：[说明] → [正确表达]
+- [错误2]：[说明] → [正确表达]
+
+**意图：**
+
+用户意图：[用户想表达什么]
+
+**关键表达：**
+- "表达1" - [中文说明]
+- "表达2" - [中文说明]
+
+**地道表达：**
+
+[改进后的完整表达]
+
+## 示例
+
+**用户输入：** "Add a x button of the top right group box, when user click it, not delete nodes in it"
+
+### 表达优化建议
+
+**问题：**
+- 介词错误：`of the top right` → 应该用 `at the top right` 或 `in the top right corner`
+- 冠词缺失：`a x button` → 应该是 `an X button`（X 发音以元音开头）
+- 主语缺失冠词：`when user click` → 应该是 `when the user clicks`（需要冠词 the）
+- 动词第三人称单数：`user click` → 应该是 `user clicks`
+- 表达不够清晰：`not delete nodes in it` → 可以更明确地说 `without deleting the nodes inside`
+
+**意图：**
+
+用户意图：在分组框的右上角添加一个关闭/删除按钮，点击后只删除分组本身，但保留分组内的节点
+
+**关键表达：**
+- "at the top right corner" - 在右上角（位置表达）
+- "when the user clicks it" - 当用户点击它时（条件从句，注意动词形式）
+- "remove/delete the group without deleting the nodes" - 删除分组但不删除节点（清晰的逻辑表达）
+
+**地道表达：**
+
+"Add an X button in the top right corner of the group box. When the user clicks it, remove the group without deleting the nodes inside."
 
 ---
 
