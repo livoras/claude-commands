@@ -50,7 +50,9 @@ description: 解决用户问题的同时帮助练习英语
 - 拆解关键表达方式和句型
 
 #### 3. 地道表达
-用更加地道的英文重新表达用户的意图（基于理解的意图，不是单纯纠正）。可以给出1-2个地道的表达。
+用更加地道的英文重新表达用户的意图（基于理解的意图，不是单纯纠正）。
+- 如果有多个更好的重新表达方式，提供两个
+- 如果只有一个更好的表达，就提供一个
 
 #### 标准格式
 
@@ -95,6 +97,9 @@ description: 解决用户问题的同时帮助练习英语
 **地道表达：**
 
 "Add an X button in the top right corner of the group box. When the user clicks it, remove the group without deleting the nodes inside."
+
+或者：
+"Place an X button at the top right of the group box that removes only the group, leaving the nodes intact."
 
 ---
 
