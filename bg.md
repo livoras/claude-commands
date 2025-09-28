@@ -43,7 +43,6 @@ description: 根据需求描述智能执行后台任务
 ```
 使用 Bash 工具后台模式执行:
 - run_in_background: true
-- timeout: 600000ms (10分钟)
 - description: 用户原始需求
 ```
 
@@ -59,12 +58,6 @@ description: 根据需求描述智能执行后台任务
 - 任务ID: [shell_id]
 - 需求描述: [用户原始输入]
 - 执行命令: [实际命令]
-- 超时时间: 10分钟
-
-📊 管理命令：
-- 查看输出: /bg output [shell_id]
-- 终止任务: /bg kill [shell_id]
-- 查看所有: /bg list
 ```
 
 ## 使用示例
@@ -85,6 +78,5 @@ description: 根据需求描述智能执行后台任务
 ## 注意事项
 
 - 基于项目实际情况智能判断命令
-- 默认超时10分钟
 - 保留用户原始需求描述
 - 所有操作都通过 Bash 后台模式执行
